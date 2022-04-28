@@ -590,11 +590,11 @@
       
       .txt1, .txt2, .txt3{
           display: block;
-      }
+        }
   
       
   .contenedor{
-  
+
       height: 100vh;
       display: grid;
       grid-template-rows: repeat(7, 2fr);
@@ -607,7 +607,7 @@
                            "footer footer footer footer";
       gap: 0.5rem;
       justify-content: center;
-      }
+        }
       
   nav ul{
       display: flex;
@@ -615,7 +615,7 @@
       padding: 0.5rem;
       margin: 0.5rem;
       list-style: none;
-  }
+    }
   
   a{
       color:black;
@@ -625,14 +625,14 @@
       margin: 0.5rem;
       padding: 0.5rem;
       border-radius: 0.5rem;
-  }
+    }
   
   .textoCarrusel{
       background-color: black;
       color: pink;
       background: rgba(4, 7, 9, 0.40);
       font-family:'Times New Roman', Times, serif;
-  }
+    }
   
   .textocarrusel2{
       background-color: transparent black;
@@ -640,7 +640,7 @@
       font-size: 1.1rem;
       background: rgba(238, 142, 129, 0.4);
       font-family:'Times New Roman', Times, serif;
-  }
+    }
   
   h2{
       color:black;
@@ -651,9 +651,9 @@
       padding: 2.5rem;
       text-align: center;
   
-  }
+    }
   
-  }
+}
   
       
   

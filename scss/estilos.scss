@@ -3,8 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-$color-estilos1:rgb(245, 179, 190);
-$color-estilos2: rgb(14, 13, 13);
+
+$paleta: (
+    color-uno: rgb(245, 179, 190),
+    color-dos: rgb(14, 13, 13),
+    color-tres: rgb(253, 251, 251),
+);
+
+
+@mixin espacios{
+    padding: 2rem;
+    margin: 1rem;
+}
+
+%fuentes{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
 
 .container{
     .logo{
@@ -25,18 +41,18 @@ $color-estilos2: rgb(14, 13, 13);
             margin: 0.5rem;
             list-style: none;
             li{
-                color: $color-estilos1;
+                color: map-get($map: $paleta, $key: color-uno );
                 list-style: none;
                 padding: 0.5rem;
                 margin: 0.5rem;
                 border-radius: 1rem;
                 &:hover{
-                    color: $color-estilos2;
-                    background-color: $color-estilos1;
+                    color: map-get($map: $paleta, $key:color-dos);
+                    background-color:map-get($map: $paleta, $key: color-uno);
                     transform: scale(1.2);
                 }
                 a{
-                    color:$color-estilos2;
+                    color:map-get($map: $paleta, $key:color-uno);
                     text-decoration: underline;
                     font-family: 'Oswald', sans-serif;
                     font-size: 1.5rem;
@@ -70,25 +86,22 @@ $color-estilos2: rgb(14, 13, 13);
     }
     
     .tenemosParaVos{
-        font-family: 'Oswald', sans-serif; 
-        font-size: 2rem;
-        text-align: center;
+        @extend %fuentes;
         font-style: oblique;;
-        padding: 1.1rem 2rem;
-        margin: 1.1rem;
-        background-color: pink;
+        @include espacios;
+        background-color: map-get($map: $paleta, $key:color-uno);
         display: table;
         display: inline-block;
         border: 2px solid black;
         text-decoration: underline;
     }
     .footer{
-        padding: 1.1rem;
+        padding: 1rem;
         text-align: right;
         a{
-            color: white;
+            color: map-get($map: $paleta, $key: color-tres );
             text-decoration:underline white;
-            background-color: black;
+            background-color: map-get($map: $paleta, $key: color-dos);
             padding: 20px;
             text-align: center;
         }
@@ -96,22 +109,19 @@ $color-estilos2: rgb(14, 13, 13);
     main{
             
         h3{
-            color: pink;
-            background-color: black;
+            color: map-get($map: $paleta, $key: color-uno);
+            background-color: map-get($map: $paleta, $key: color-dos );
             padding: 2px;
             margin: 5px;
             text-transform: uppercase;
             text-decoration: underline;
-            font-family: 'Oswald', sans-serif;
-            font-size: 2rem;
-            text-align: center;
+            @extend %fuentes;
         }
     }
     .textoPresentacion{
         font-family: 'Oswald', sans-serif;
         font-size: 1rem;
-        padding: 2rem;
-        margin-top: 1rem;
+        @include espacios;
     }
     .tamañoImagenes{
         width: 500px;
