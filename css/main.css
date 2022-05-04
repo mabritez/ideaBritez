@@ -10,7 +10,7 @@
   margin: 2rem;
   background-image: url(../images/cupcakes.jpg); }
 
-.container .centrar {
+.container .centrar {   
   text-align: center;
   position: sticky;
   top: 0; }
@@ -68,16 +68,6 @@
   display: inline-block;
   border: 2px solid black;
   text-decoration: underline; }
-
-.container .footer {
-  padding: 1.1rem;
-  text-align: right; }
-  .container .footer a {
-    color: white;
-    text-decoration: underline white;
-    background-color: black;
-    padding: 20px;
-    text-align: center; }
 
 .container main h3 {
   color: pink;
@@ -144,517 +134,434 @@
     font-size: 1.2rem;
     padding: 2rem;
     margin: 1.6rem; }
-  .container .contenedor footer {
-    grid-area: footer; }
-    .centrar{
-      text-align: center;
-      position: sticky;
-      top: 0;
+    footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    margin: 1rem;
+    padding: 1rem;
   }
-  
-  
-  nav ul{
-      display: flex;
-      justify-content: center;
-      padding: 0.5rem;
-      margin: 0.5rem;
-      list-style: none;
-  }
-  
-  
-  nav ul li{
-      color: pink;
-      list-style: none;
-      padding: 0.5rem;
-      margin: 0.5rem;
-      border-radius: 1rem;
-  }
-  
-  nav ul li:hover{
-      color: black;
-      background-color: pink;
-      transform: scale(1.2);
-  }
-  
-  a{
-      color:black;
-      text-decoration: underline;
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.5rem;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      border-radius: 0.5rem;
-  }
-  
-  
-  .logo{
-      text-align: center;
-      padding: 1.1rem;
-      margin: 2rem;
-      background-image: url(../images/cupcakes.jpg);
-      
-  }
-  
-  
-  
-  h1{
-      font-family: 'Inspiration', cursive;
-      font-size: 4rem;
-      text-align: center;
-      font-style: oblique;;
-      padding: 1rem;
-      margin: 2.8rem 1.1rem 2rem 1.1rem;
-      background-color: pink;
-      display: table;
-      border: 2px solid black;
-  }
-  
-  .tenemosParaVos{
-      font-family: 'Oswald', sans-serif; 
-      font-size: 2rem;
-      text-align: center;
-      font-style: oblique;;
-      padding: 1.1rem 2rem;
-      margin: 1.1rem;
-      background-color: pink;
-      display: table;
-      display: inline-block;
-      border: 2px solid black;
-      text-decoration: underline;
-  }
-  
-  .footer{
-      padding: 1.1rem;
-      text-align: right;
-  }
-  .footer a{
-      color: white;
-      text-decoration:underline white;
-      background-color: black;
-      padding: 20px;
-      text-align: center;
-  
-  
-  }
-  
-      
-  h3{
-      color: pink;
-      background-color: black;
-      padding: 2px;
-      margin: 5px;
-      text-transform: uppercase;
-      text-decoration: underline;
-      font-family: 'Oswald', sans-serif;
-      font-size: 2rem;
-      text-align: center;
-      
-  
-  }
-  
-  .imagenesPresentacion{
-      display: flex;
-      margin: 0.1rem;
-      padding: 0.1rem;
-  }
-  .textoPresentacion{
-      font-family: 'Oswald', sans-serif;
-      font-size: 1rem;
-      padding: 2rem;
-      margin-top: 1rem;
-  }
-  .textos{
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.5rem;
-      padding: 2rem;
-      margin-top: 1rem;
-  }
-  
-  .pastelero{
-  
-      padding: 1.1rem;
-      width: 31rem;
-      height: 20rem;
-  }
-  
-  .fechasEspecialesHome{
-      padding: 1.1rem;
-      width: 29rem;
-      height: 20rem;
-  }
-  
-  
-  body table{
-      font-size: 1.1rem;
-      font-family: 'Oswald', sans-serif;
-      text-decoration: underline;
-      background-color: pink;
-      padding: 0.5rem;
-      margin: 1.1rem;
-  
-  }
-  
-  footer{
-      text-align: right;
-      font-family: 'Oswald', sans-serif;
-  }
-  
-  body div img{
-      width: 31.5;
-      height: 20rem;
-      padding: 1.1rem;
-      margin: 1.1rem;
-      
-  }
-  
-  .tituloPasteleria :hover{
-      padding: 2rem;
-      margin: 2.5rem;
-      transform: translate(1rem, 1.2rem);
-  }
-  
-  .pictures2{
-      text-align: center;
-      margin: 1.1rem;
-      padding: 1rem;
-      display: flex;
-      
-  }
-  
-  div img{
-      flex: 50%;
-  }
-  
-  div p{
-      flex: 50%;
-      justify-content: left;
-      flex-direction: row;
-      
-  }
-  
-  .descripciones{
-      color: pink;
-      font-family: 'Oswald', sans-serif;
-      font-size: 2.5rem;
-      text-align: center;
-      font-style: oblique;
-      padding: 2.5rem;
-      margin: 2.5remc;
-      background-color: black;
-      text-decoration: underline;
-  }
-  
-  .descargarMenu{
-      color: pink;
-      font-family: 'Oswald', sans-serif;
-      font-size: 1rem;
-      text-align: center;
-      font-style: oblique;
-      padding: 1.1rem;
-      margin: 1.1rem;
-      background-color: black;
-      text-decoration: underline;
-  }
-  
-  footer{
-      padding: 1rem;
-  }
-  
-  .datos{
-      font-size: 1.1rem;
-      font-family: 'Oswald', sans-serif;
-      text-align: left;
-      padding: 0.7rem;
-      margin: 1.1rem;
-  }
-  
-  .tabla{
-      padding: 2rem;
-      margin: 2rem;
-  }
-  
-  .tusDatos{
-      font-size: 1.1rem;
-      font-family: 'Oswald', sans-serif;
-      text-align: center;
-      padding: 0.7rem;
-      margin: 1.1rem;
-  }
-  
-  .ubicacion{
-      color: black;
-      background-color: white;
-      font-size: 1.1rem;
-      font-family: 'Oswald', sans-serif;
-      text-align: center;
-      padding: 0.5rem;
-      margin: 1.1rem
-  }
-  
-  .ubicacionDos{
-      color: black;
-      background-color: white;
-      font-size: 1.1rem;
-      font-family: 'Oswald', sans-serif;
-      text-align: center;
-      padding: 0.5rem;
-      margin: 1.1rem 1.1rem 1.1rem 4rem
-  }
-  
-  .contenedor{
-  
-      height: 100vh;
-      display: grid;
-      grid-template-rows: repeat(7, 2fr);
-      grid-template-areas: "cont1 cont1 cont1 cont1"
-                           "img1 img1 txt1 txt1"
-                           "cont2 cont2 cont2 cont2"
-                           "txt2 txt2 img2 img2"
-                           "cont3 cont3 cont3 cont3"
-                           "img3 img3 txt3 txt3"
-                           "footer footer footer footer";
-      gap: 0.5rem;
-      justify-content: center;
-  }
-  
-  .cont1{
-      grid-area: cont1;
-      
-  }
-  .img1{
-      grid-area: img1;
-  }
-  
-  .txt1{
-      grid-area: txt1;
-      text-align: center;
-      font-size: 1.2rem;
-      padding: 2rem;
-      margin: 1.6rem;
-  }
-  
-  .cont2{
-      grid-area: cont2;
-  }    
-  
-  .img2{
-      grid-area: img2;
-      padding: 1rem;
-  }
-  .txt2{
-      grid-area: txt2;
-      text-align: center;
-      font-size: 1.2rem;
-      padding: 2rem;
-      margin: 1.6rem;
-  }
-  
-  .cont3{
-      grid-area: cont3;
-  }
-  
-  .img3{
-      grid-area: img3;
-  }
-  
-  .txt3{
-      grid-area: txt3;
-      text-align: center;
-      font-size: 1.2rem;
-      padding: 2rem;
-      margin: 1.6rem;
-  }
-  
-  footer{
-      grid-area: footer;
-  }
-  
-  
-  @media only screen and (min-width:320px){
-    
-      a{
-          color:black;
-          text-decoration: underline;
-          font-family: 'Oswald', sans-serif;
-          font-size: 1.2rem;
-          margin: 0.1rem;
-          padding: 0.1rem;
-          border-radius: 0.5rem;
-      }
-      
-      
-      .contenedor{
-          height: 100vh;
-          display: grid;
-          grid-template-rows: repeat(7, 2fr);
-          grid-template-areas: "cont1 cont1 cont1 cont1"
-                               "img1 img1 img1 img1"
-                               "cont2 cont2 cont2 cont2"
-                               "img2 img2 img2 img2"
-                               "cont3 cont3 cont3 cont3"
-                               "img3 img3 img3 img3"
-                               "footer footer footer footer";
-          gap: 0.5rem;
-          justify-content: center;
-      }
-      
-      .cont1{
-          grid-area: cont1;
-          
-      }
-      .img1{
-          grid-area: img1;
-      }
-      
-      .cont2{
-          grid-area: cont2;
-      }    
-      
-      .img2{
-          grid-area: img2;
-          padding: 1rem;
-      }
-     
-      .cont3{
-          grid-area: cont3;
-      }
-      
-      .img3{
-          grid-area: img3;
-      }
-      
-    
-      
-      footer{
-          grid-area: footer;
-  
-      }
-      
-      .txt1, .txt2, .txt3{
-          display: none;
-      }
-      
-      header{
-          display: grid;
-          justify-content: center;
-          align-items: center;
-      }
-  
-      .dulcemente{
-          padding: 2rem;
-          margin: 2rem;
-      }
-  
-      .footer{
-          display: none;
-      }
-      
-      .pictures{
-          display: grid;
-          justify-content: center;
-          align-items: center;
-      }
-      
-  
-      .tituloPasteleria{
-          align-items: center;
-          align-content: center;
-      }
-  
-     .pasteleria0 :hover{
-          display: grid;
-          align-items: center;
-          justify-content: center;
-          transform: translate(0.1rem, 0.1rem);
-     }
-  
-      .tituloPasteleria{
-          padding: 1.1rem;
-          margin: 1rem
-          ;
-      }
-  
-      .pictures2{
-          display: inline-block;
-      }
-      .contacto0 :hover{
-          display: grid;
-          align-items: center;
-          justify-content: center;
-          transform: translate(0.1rem, 0.1rem);
-      }
-  }
-  
-  
-  @media only screen and (min-width:1024px){
-      
-      .txt1, .txt2, .txt3{
-          display: block;
-        }
-  
-      
-  .contenedor{
-
-      height: 100vh;
-      display: grid;
-      grid-template-rows: repeat(7, 2fr);
-      grid-template-areas: "cont1 cont1 cont1 cont1"
-                           "img1 img1 txt1 txt1"
-                           "cont2 cont2 cont2 cont2"
-                           "txt2 txt2 img2 img2"
-                           "cont3 cont3 cont3 cont3"
-                           "img3 img3 txt3 txt3"
-                           "footer footer footer footer";
-      gap: 0.5rem;
-      justify-content: center;
-        }
-      
-  nav ul{
-      display: flex;
-      justify-content: center;
-      padding: 0.5rem;
-      margin: 0.5rem;
-      list-style: none;
-    }
-  
-  a{
-      color:black;
-      text-decoration: underline;
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.5rem;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      border-radius: 0.5rem;
-    }
-  
-  .textoCarrusel{
-      background-color: black;
-      color: pink;
-      background: rgba(4, 7, 9, 0.40);
-      font-family:'Times New Roman', Times, serif;
-    }
-  
-  .textocarrusel2{
-      background-color: transparent black;
-      color: black;
-      font-size: 1.1rem;
-      background: rgba(238, 142, 129, 0.4);
-      font-family:'Times New Roman', Times, serif;
-    }
-  
-  h2{
-      color:black;
-      text-decoration: underline;
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.5rem;
-      margin: 1.5rem;
-      padding: 2.5rem;
-      text-align: center;
-  
-    }
-  
+  .centrar{
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
-  
-      
-  
+nav ul li{
+    color: pink;
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+a{
+    color: black;
+    text-decoration: underline;
+    font-family:'Oswald', sans-serif;
+    font-size: oblique;
+    padding: 1rem;
+    margin: 2.8rem 1.1rem 2 rem 1.1rem;
+    background-color: pink;
+    display: table;
+    border: 2px solid black;
+}
+.tenemosParaVos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-style: oblique;
+    padding: 1.1rem 2 rem;
+    margin: 1.1rem;
+    background-color: pink;
+    display: table;
+    display: inline-block;
+    border: 2px solid black;
+    text-decoration: underline;
+}
+.footer{
+    padding: 1.1rem;
+    text-align: right;
+}
+.footer a{
+    color: white;
+    text-decoration: underline white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    color: pink;
+    background-color: black;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-size:2rem;
+    text-align: center;
+}
+.imagenesPresentacion{
+    display: flex;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+.textoPresentacion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.textos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.pastelero{
+    padding: 1.1rem;
+    width: 31rem;
+    height: 20rem;
+}
+.fechasEspecialesHome{
+    padding: 1.1rem;
+    width: 29rem;
+    height: 20rem;
+}
+footer{
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+}
+body div img{
+    width: 31.5rem;
+    height: 20rem;
+    padding: 1.1rem;
+    margin: 1.1rem;
+}
+.tituloPasteleria :hover{
+    padding: 2rem;
+    margin: 2.5rem;
+    transform: translate(1rem, 1.2rem);
+}
+.pictures2{
+    text-align: center;
+    margin: 1.1rem;
+    padding: 1rem;
+    display: flex;
+}
+div img{
+    flex: 50%;
+}
+div p{
+    flex: 50%;
+    justify-content: left;
+    flex-direction: row
+}
+.descripciones{
+    color: pink;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: oblique;
+    padding: 2.5rem;
+    margin: 2.5remc;
+    background-color: black;
+    text-decoration: underline;
+}
+
+.descargarMenu{
+    color: pink;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-style: oblique;
+    padding: 1.1rem;
+    margin: 1.1rem;
+    background-color: black;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 1rem;
+}
+.datos{
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    padding: 0.7rem;
+    margin: 1.1rem;
+}
+.tabla{
+    padding: 2rem;
+    margin: 2rem;
+}
+.tusDatos{
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 0.7rem;
+    margin: 1.1rem;
+}
+
+.ubicacion{
+    color: black;
+    background-color: white;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.1rem
+}
+
+.ubicacionDos{
+    color: black;
+    background-color: white;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1.1rem 1.1rem 1.1rem 4rem
+}
+.contenedor{
+
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(7, 2fr);
+    grid-template-areas: "cont1 cont1 cont1 cont1"
+                        "img1 img1 txt1 txt1"
+                        "cont2 cont2 cont2 cont2"
+                        "txt2 txt2 img2 img2"
+                        "cont3 cont3 cont3 cont3"
+                        "img3 img3 txt3 txt3";
+    gap: 0.5rem;
+    justify-content: center;
+}
+.cont1{
+    grid-area: cont1;
+    
+}
+.img1{
+    grid-area: img1;
+}
+
+.txt1{
+    grid-area: txt1;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    margin: 1.6rem;
+}
+
+.cont2{
+    grid-area: cont2;
+}    
+
+.img2{
+    grid-area: img2;
+    padding: 1rem;
+}
+.txt2{
+    grid-area: txt2;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    margin: 1.6rem;
+}
+
+.cont3{
+    grid-area: cont3;
+}
+
+.img3{
+    grid-area: img3;
+}
+.txt3{
+    grid-area: txt3;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    margin: 1.6rem;
+}
+
+footer{
+    grid-area: footer;
+}
+@media only screen and (min-width:320px){
+    
+    a{
+        color:black;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2rem;
+        margin: 0.1rem;
+        padding: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    
+    .contenedor{
+        height: 100vh;
+        display: grid;
+        grid-template-rows: repeat(7, 2fr);
+        grid-template-areas: "cont1 cont1 cont1 cont1"
+                            "img1 img1 img1 img1"
+                            "cont2 cont2 cont2 cont2"
+                            "img2 img2 img2 img2"
+                            "cont3 cont3 cont3 cont3"
+                            "img3 img3 img3 img3"
+                            "footer footer footer footer";
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    
+    .cont1{
+        grid-area: cont1;
+        
+    }
+    .img1{
+        grid-area: img1;
+    }
+    
+    .cont2{
+        grid-area: cont2;
+    }
+    .img2{
+        grid-area: img2;
+        padding: 1rem;
+    }
+
+    .cont3{
+        grid-area: cont3;
+    }
+    
+    .img3{
+        grid-area: img3;
+    }
+    
+
+    
+    footer{
+        grid-area: footer;
+
+    }
+    
+    .txt1, .txt2, .txt3{
+        display: none;
+    }
+    
+    header{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dulcemente{
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+    .footer{
+        display: none;
+    }
+    
+    .pictures{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloPasteleria{
+        align-items: center;
+        align-content: center;
+    }
+
+.pasteleria0 :hover{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0.1rem, 0.1rem);
+}
+
+    .tituloPasteleria{
+        padding: 1.1rem;
+        margin: 1rem
+        ;
+    }
+
+    .pictures2{
+        display: inline-block;
+    }
+    .contacto0 :hover{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0.1rem, 0.1rem);
+    }
+}
+
+
+@media only screen and (min-width:1024px){
+    
+    .txt1, .txt2, .txt3{
+        display: block;
+    }
+
+    
+    .contenedor{
+
+        height: 100vh;
+        display: grid;
+        grid-template-rows: repeat(7, 2fr);
+        grid-template-areas: "cont1 cont1 cont1 cont1"
+                            "img1 img1 txt1 txt1"
+                            "cont2 cont2 cont2 cont2"
+                            "txt2 txt2 img2 img2"
+                            "cont3 cont3 cont3 cont3"
+                            "img3 img3 txt3 txt3"
+        gap 0.5rem;
+        justify-content: center;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        list-style: none;
+      }
+    
+    a{
+        color:black;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .textoCarrusel{
+        background-color: black;
+        color: pink;
+        background: rgba(4, 7, 9, 0.40);
+        font-family:'Times New Roman', Times, serif;
+      }
+    
+    .textocarrusel2{
+        background-color: transparent black;
+        color: black;
+        font-size: 1.1rem;
+        background: rgba(238, 142, 129, 0.4);
+        font-family:'Times New Roman', Times, serif;
+      }
+    
+    h2{
+        color:black;
+        text-decoration: underline;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        margin: 1.5rem;
+        padding: 2.5rem;
+        text-align: center;
+    
+      }
+}                 
+
   
