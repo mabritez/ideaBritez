@@ -20,7 +20,8 @@
    
 </head>
 <body>
-    <header>
+    <div class="container">
+      <header>
         <nav>
             <div class="logo">
                 <a href="../index.html"> <img src="../images/nuevologo.jpg" alt="logo de dulcemente"></a>
@@ -28,40 +29,38 @@
         </nav>
     </header> 
 
-    <nav class="centrar">
-        <ul>
-            <li>
-                <a href="/index.html">
-                home
-                </a>
-            </li>
-            <li>
-                <a href="../pages/pasteleria.html">
-                pasteleria
-                </a>
-            </li>
-            <li>
-                <a href="../pages/catering.html">
-                catering
-                </a>
-            </li>
-            <li>
-                <a href="../pages/fechasEspeciales.html">
-                fehas especiales
-                </a>
-            </li>
-            <li>
-                <a href="../pages/contacto.html">
-                contacto
-                </a>
-            </li>
-        </ul>
+    <nav class="centrar navbar-expand-lg navbar-black">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/pasteleria.html">pasteleria</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/catering.html">catering</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/fechasEspeciales.html">fechas especiales</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../pages/contacto.html">contacto</a>
+                  </li>
+              </ul>
+          
+          </div>
+      </div>
     </nav>
     <div class="contacto0">
         <h1 class="modificacionContacto">Contacto</h1>
     </div>
 
-    <h2>Dejanos tus datos y nos contactaremos con vos a la brevedad</h2>
+    <h2>Dejanos tus datos y nos contactaremos con vos a la brevedad.</h2>
     
     <form class="row g-3">
         <div class="col-md-6">
@@ -82,7 +81,7 @@
             <input type="text" class="form-control" id="inputAddress" placeholder="ponga aqui su telefono">
           </div>
         <div class="col-md-6">
-          <label for="inputState" class="form-label">State</label>
+          <label for="inputState" class="form-label">Ciudad</label>
           <select id="inputState" class="form-select">
             <option selected>Quilmes</option>
             <option>Bernal</option>
@@ -95,13 +94,14 @@
         </div>
       </form>
 
-   
-
-    <footer>
+      <footer>
         <p>
          todos los derechos reservados a matias britez
         </p> 
      </footer>
+    </div>
+  
+    
     
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>         
 </body>

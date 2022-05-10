@@ -4,24 +4,30 @@
   padding: 0;
   box-sizing: border-box; }
 
+.container .tenemosParaVos, .container main h3, .container .cont1, h3, .descripciones, .descripciones1, .descripciones2 {
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; }
+
 .container .logo {
+  background-image: url(../images/cupcakes.jpg);
   text-align: center;
   padding: 1.1rem;
-  margin: 2rem;
-  background-image: url(../images/cupcakes.jpg); }
+  margin: 2rem; }
 
-.container .centrar {   
+.container .centrar {
   text-align: center;
   position: sticky;
   top: 0; }
   .container .centrar ul {
+    color: black;
     display: flex;
     justify-content: center;
     padding: 0.5rem;
     margin: 0.5rem;
     list-style: none; }
     .container .centrar ul li {
-      color: #f5b3be;
+      color: #0e0d0d;
       list-style: none;
       padding: 0.5rem;
       margin: 0.5rem;
@@ -39,11 +45,18 @@
         padding: 0.5rem;
         border-radius: 0.5rem; }
 
-.container .logo {
-  text-align: center;
-  padding: 1.1rem;
-  margin: 2rem;
-  background-image: url(../images/cupcakes.jpg); }
+.container .carousel-inner .carousel-caption .textoCarrusel {
+  background-color: black;
+  color: pink;
+  background: rgba(4, 7, 9, 0.4);
+  font-family: 'Times New Roman', Times, serif; }
+
+.container .carousel-inner .carousel-caption .textocarrusel2 {
+  background-color: transparent black;
+  color: black;
+  font-size: 1.1rem;
+  background: rgba(238, 142, 129, 0.4);
+  font-family: 'Times New Roman', Times, serif; }
 
 .container h1 {
   font-family: 'Inspiration', cursive;
@@ -57,34 +70,28 @@
   border: 2px solid black; }
 
 .container .tenemosParaVos {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  text-align: center;
   font-style: oblique;
-  padding: 1.1rem 2rem;
-  margin: 1.1rem;
-  background-color: pink;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #f5b3be;
   display: table;
   display: inline-block;
   border: 2px solid black;
   text-decoration: underline; }
 
 .container main h3 {
-  color: pink;
-  background-color: black;
+  color: #f5b3be;
+  background-color: #0e0d0d;
   padding: 2px;
   margin: 5px;
   text-transform: uppercase;
-  text-decoration: underline;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  text-align: center; }
+  text-decoration: underline; }
 
 .container .textoPresentacion {
   font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   padding: 2rem;
-  margin-top: 1rem; }
+  margin: 1rem; }
 
 .container .tamañoImagenes {
   width: 500px;
@@ -94,474 +101,285 @@
   height: 100vh;
   display: grid;
   grid-template-rows: repeat(7, 2fr);
-  grid-template-areas: "cont1 cont1 cont1 cont1"
- "img1 img1 txt1 txt1"
- "cont2 cont2 cont2 cont2"
- "txt2 txt2 img2 img2"
- "cont3 cont3 cont3 cont3"
- "img3 img3 txt3 txt3"
- "footer footer footer footer";
+  grid-template-areas: "cont1 cont1 cont1 cont1" "img1 img1 img1 img1" "txt1 txt1 txt1 txt1" "cont2 cont2 cont2 cont2" "img2 img2 img2 img2" "txt2 txt2 txt2 txt2" "cont3 cont3 cont3 cont3" "img3 img3 img3 img3" "txt3 txt3 txt3 txt3";
   gap: 0.5rem;
   justify-content: center; }
   .container .contenedor .cont1 {
     grid-area: cont1; }
   .container .contenedor .img1 {
-    grid-area: img1; }
+    grid-area: img1;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
   .container .contenedor .txt1 {
     grid-area: txt1;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 2rem;
     margin: 1.6rem; }
   .container .contenedor .cont2 {
     grid-area: cont2; }
   .container .contenedor .img2 {
     grid-area: img2;
-    padding: 1rem; }
+    align-content: center;
+    text-align: center; }
   .container .contenedor .txt2 {
     grid-area: txt2;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
     margin: 1.6rem; }
   .container .contenedor .cont3 {
     grid-area: cont3; }
   .container .contenedor .img3 {
-    grid-area: img3; }
+    grid-area: img3;
+    align-content: center;
+    text-align: center; }
   .container .contenedor .txt3 {
     grid-area: txt3;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
     margin: 1.6rem; }
-    footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    margin: 1rem;
-    padding: 1rem;
-  }
-  .centrar{
-    text-align: center;
-    position: sticky;
-    top: 0;
-}
-nav ul li{
-    color: pink;
-    list-style: none;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 1rem;
-}
-a{
-    color: black;
-    text-decoration: underline;
-    font-family:'Oswald', sans-serif;
-    font-size: oblique;
-    padding: 1rem;
-    margin: 2.8rem 1.1rem 2 rem 1.1rem;
-    background-color: pink;
-    display: table;
-    border: 2px solid black;
-}
-.tenemosParaVos{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    font-style: oblique;
-    padding: 1.1rem 2 rem;
-    margin: 1.1rem;
-    background-color: pink;
-    display: table;
-    display: inline-block;
-    border: 2px solid black;
-    text-decoration: underline;
-}
-.footer{
-    padding: 1.1rem;
-    text-align: right;
-}
-.footer a{
-    color: white;
-    text-decoration: underline white;
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-}
-h3{
-    color: pink;
-    background-color: black;
+
+.container .cont1 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+h3 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+.container img {
+  width: 31.5rem;
+  height: 20rem;
+  padding: 1.1rem;
+  margin: 1.1rem; }
+
+.tamañoImagenes {
+  width: 31.5rem;
+  height: 20rem;
+  padding: 1.1rem;
+  margin: 1.1rem;
+  text-align: center; }
+
+.container .contenedorCatering {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(7, 2fr);
+  grid-template-areas: "descripciones1 descripciones1 descripciones1 descripciones1" "imgCatering1 imgCatering1 imgCatering1 imgCatering1" "txtCatering1 txtCatering1 txtCatering1 txtCatering1" "descripciones2 descripciones2 descripciones2 descripciones2" "imgCatering2 imgCatering2 imgCatering2 imgCatering2" "txtCatering2 txtCatering2 txtCatering2 txtCatering2";
+  gap: 0.5rem;
+  justify-content: center; }
+  .container .contenedorCatering .descripciones1 {
+    grid-area: descripciones1;
+    color: #f5b3be;
+    background-color: #0e0d0d;
     padding: 2px;
     margin: 5px;
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
-    font-size:2rem;
+    text-align: center; }
+  .container .contenedorCatering .imgCatering1 {
+    grid-area: imgCatering1;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .container .contenedorCatering .txtCatering1 {
+    grid-area: txtCatering1;
     text-align: center;
-}
-.imagenesPresentacion{
-    display: flex;
-    margin: 0.1rem;
-    padding: 0.1rem;
-}
-.textoPresentacion{
-    font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     padding: 2rem;
-    margin-top: 1rem;
-}
-.textos{
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem;
-    margin-top: 1rem;
-}
-.pastelero{
-    padding: 1.1rem;
-    width: 31rem;
-    height: 20rem;
-}
-.fechasEspecialesHome{
-    padding: 1.1rem;
-    width: 29rem;
-    height: 20rem;
-}
-footer{
-    text-align: right;
-    font-family: 'Oswald', sans-serif;
-}
-body div img{
-    width: 31.5rem;
-    height: 20rem;
-    padding: 1.1rem;
-    margin: 1.1rem;
-}
-.tituloPasteleria :hover{
-    padding: 2rem;
-    margin: 2.5rem;
-    transform: translate(1rem, 1.2rem);
-}
-.pictures2{
-    text-align: center;
-    margin: 1.1rem;
-    padding: 1rem;
-    display: flex;
-}
-div img{
-    flex: 50%;
-}
-div p{
-    flex: 50%;
-    justify-content: left;
-    flex-direction: row
-}
-.descripciones{
-    color: pink;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    font-style: oblique;
-    padding: 2.5rem;
-    margin: 2.5remc;
-    background-color: black;
+    margin: 1.6rem; }
+  .container .contenedorCatering .descripciones2 {
+    grid-area: descripciones2;
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
     text-decoration: underline;
-}
-
-.descargarMenu{
-    color: pink;
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
+    text-align: center; }
+  .container .contenedorCatering .imgCatering2 {
+    grid-area: imgCatering2;
+    align-content: center;
+    text-align: center; }
+  .container .contenedorCatering .txtCatering2 {
+    grid-area: txtCatering2;
+    text-align: center;
     font-size: 1rem;
-    text-align: center;
-    font-style: oblique;
-    padding: 1.1rem;
-    margin: 1.1rem;
-    background-color: black;
-    text-decoration: underline;
-}
-
-footer{
-    padding: 1rem;
-}
-.datos{
-    font-size: 1.1rem;
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
-    padding: 0.7rem;
-    margin: 1.1rem;
-}
-.tabla{
     padding: 2rem;
-    margin: 2rem;
-}
-.tusDatos{
-    font-size: 1.1rem;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    padding: 0.7rem;
-    margin: 1.1rem;
-}
+    margin: 1.6rem; }
 
-.ubicacion{
-    color: black;
-    background-color: white;
-    font-size: 1.1rem;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1.1rem
-}
+.descripciones {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
 
-.ubicacionDos{
-    color: black;
-    background-color: white;
-    font-size: 1.1rem;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1.1rem 1.1rem 1.1rem 4rem
-}
-.contenedor{
+.descripciones1 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
 
+.descripciones2 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+.textoImagenes {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  padding: 2rem;
+  margin: 1rem; }
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  text-align: right; }
+
+.ContenedorTextosImagenFe .textosFe {
+  padding: 2rem; }
+
+@media only screen and (min-width: 1024px) {
+  .container .contenedor {
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(7, 2fr);
-    grid-template-areas: "cont1 cont1 cont1 cont1"
-                        "img1 img1 txt1 txt1"
-                        "cont2 cont2 cont2 cont2"
-                        "txt2 txt2 img2 img2"
-                        "cont3 cont3 cont3 cont3"
-                        "img3 img3 txt3 txt3";
+    grid-template-areas: "cont1 cont1 cont1 cont1" "img1 img1 txt1 txt1" "cont2 cont2 cont2 cont2" "txt2 txt2 img2 img2" "cont3 cont3 cont3 cont3" "img3 img3 txt3 txt3";
     gap: 0.5rem;
-    justify-content: center;
-}
-.cont1{
-    grid-area: cont1;
-    
-}
-.img1{
+    justify-content: center; }
+  .container .cont1 {
+    grid-area: cont1; }
+  .container .img1 {
     grid-area: img1;
-}
-
-.txt1{
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .container .txt1 {
     grid-area: txt1;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem;
-}
-
-.cont2{
-    grid-area: cont2;
-}    
-
-.img2{
+    margin: 1.6rem; }
+  .container .cont2 {
+    grid-area: cont2; }
+  .container .img2 {
     grid-area: img2;
-    padding: 1rem;
-}
-.txt2{
+    align-content: center;
+    text-align: center; }
+  .container .txt2 {
     grid-area: txt2;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem;
-}
-
-.cont3{
-    grid-area: cont3;
-}
-
-.img3{
+    margin: 1.6rem; }
+  .container .cont3 {
+    grid-area: cont3; }
+  .container .img3 {
     grid-area: img3;
-}
-.txt3{
+    align-content: center;
+    text-align: center; }
+  .container .txt3 {
     grid-area: txt3;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem;
-}
+    margin: 1.6rem; } }
 
-footer{
-    grid-area: footer;
-}
-@media only screen and (min-width:320px){
-    
-    a{
-        color:black;
-        text-decoration: underline;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.2rem;
-        margin: 0.1rem;
-        padding: 0.1rem;
-        border-radius: 0.5rem;
-    }
-    
-    
-    .contenedor{
-        height: 100vh;
-        display: grid;
-        grid-template-rows: repeat(7, 2fr);
-        grid-template-areas: "cont1 cont1 cont1 cont1"
-                            "img1 img1 img1 img1"
-                            "cont2 cont2 cont2 cont2"
-                            "img2 img2 img2 img2"
-                            "cont3 cont3 cont3 cont3"
-                            "img3 img3 img3 img3"
-                            "footer footer footer footer";
-        gap: 0.5rem;
-        justify-content: center;
-    }
-    
-    .cont1{
-        grid-area: cont1;
-        
-    }
-    .img1{
-        grid-area: img1;
-    }
-    
-    .cont2{
-        grid-area: cont2;
-    }
-    .img2{
-        grid-area: img2;
-        padding: 1rem;
-    }
+.container .contenedorCatering {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(7, 2fr);
+  grid-template-areas: "descripciones1 descripciones1 descripciones1 descripciones1" "imgCatering1 imgCatering1 txtCatering1 txtCatering1" "descripciones2 descripciones2 descripciones2 descripciones2" "txtCatering2 txtCatering2 imgCatering2 imgCatering2";
+  gap: 0.5rem;
+  justify-content: center; }
+  .container .contenedorCatering .descripciones1 {
+    grid-area: descripciones1;
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center; }
+  .container .contenedorCatering .imgCatering1 {
+    grid-area: imgCatering1;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .container .contenedorCatering .txtCatering1 {
+    grid-area: txtCatering1;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1.6rem; }
+  .container .contenedorCatering .descripciones2 {
+    grid-area: descripciones2;
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center; }
+  .container .contenedorCatering .imgCatering2 {
+    grid-area: imgCatering2;
+    align-content: center;
+    text-align: center; }
+  .container .contenedorCatering .txtCatering2 {
+    grid-area: txtCatering2;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1.6rem; }
 
-    .cont3{
-        grid-area: cont3;
-    }
-    
-    .img3{
-        grid-area: img3;
-    }
-    
+.descripciones {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
 
-    
-    footer{
-        grid-area: footer;
+.descripciones1 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
 
-    }
-    
-    .txt1, .txt2, .txt3{
-        display: none;
-    }
-    
-    header{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .dulcemente{
-        padding: 2rem;
-        margin: 2rem;
-    }
-
-    .footer{
-        display: none;
-    }
-    
-    .pictures{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
-    .tituloPasteleria{
-        align-items: center;
-        align-content: center;
-    }
-
-.pasteleria0 :hover{
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        transform: translate(0.1rem, 0.1rem);
-}
-
-    .tituloPasteleria{
-        padding: 1.1rem;
-        margin: 1rem
-        ;
-    }
-
-    .pictures2{
-        display: inline-block;
-    }
-    .contacto0 :hover{
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        transform: translate(0.1rem, 0.1rem);
-    }
-}
-
-
-@media only screen and (min-width:1024px){
-    
-    .txt1, .txt2, .txt3{
-        display: block;
-    }
-
-    
-    .contenedor{
-
-        height: 100vh;
-        display: grid;
-        grid-template-rows: repeat(7, 2fr);
-        grid-template-areas: "cont1 cont1 cont1 cont1"
-                            "img1 img1 txt1 txt1"
-                            "cont2 cont2 cont2 cont2"
-                            "txt2 txt2 img2 img2"
-                            "cont3 cont3 cont3 cont3"
-                            "img3 img3 txt3 txt3"
-        gap 0.5rem;
-        justify-content: center;
-    }
-    nav ul{
-        display: flex;
-        justify-content: center;
-        padding: 0.5rem;
-        margin: 0.5rem;
-        list-style: none;
-      }
-    
-    a{
-        color:black;
-        text-decoration: underline;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.5rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-      }
-      .textoCarrusel{
-        background-color: black;
-        color: pink;
-        background: rgba(4, 7, 9, 0.40);
-        font-family:'Times New Roman', Times, serif;
-      }
-    
-    .textocarrusel2{
-        background-color: transparent black;
-        color: black;
-        font-size: 1.1rem;
-        background: rgba(238, 142, 129, 0.4);
-        font-family:'Times New Roman', Times, serif;
-      }
-    
-    h2{
-        color:black;
-        text-decoration: underline;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.5rem;
-        margin: 1.5rem;
-        padding: 2.5rem;
-        text-align: center;
-    
-      }
-}                 
-
-  
+.descripciones2 {
+  color: #f5b3be;
+  background-color: #0e0d0d;
+  padding: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: underline; }
