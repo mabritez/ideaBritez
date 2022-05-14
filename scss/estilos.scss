@@ -237,6 +237,7 @@
             text-align: center;
         }
 
+        
         .container{
             .contenedorCatering{
                 height: 100vh;
@@ -276,7 +277,7 @@
                 padding: 2rem;
                 margin: 1.6rem;
                 }
-    
+        
                 .descripciones2{
                     grid-area: descripciones2;
                     color: map-get($map: $paleta, $key: color-uno);
@@ -306,7 +307,7 @@
                 }
             }      
         }
-
+            
         .descripciones{
             color: map-get($map: $paleta, $key: color-uno);
             background-color: map-get($map: $paleta, $key: color-dos );
@@ -356,7 +357,7 @@
         }
     }  
     
-    @media only screen and (min-width:1024px){
+    @media only screen and (min-width:768px){
         .container{
             .contenedor{
                 height: 100vh;
@@ -370,8 +371,7 @@
                                     "img3 img3 txt3 txt3";
                 gap: 0.5rem;
                 justify-content: center;
-                }
-
+            
                 .cont1{
                     grid-area: cont1;
                 }
@@ -503,7 +503,9 @@
             margin: 5px;
             text-transform: uppercase;
             text-decoration: underline;
-            @extend %fuentes;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
         }
         .descripciones1{
             color: map-get($map: $paleta, $key: color-uno);
@@ -512,7 +514,9 @@
             margin: 5px;
             text-transform: uppercase;
             text-decoration: underline;
-            @extend %fuentes;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
         }
 
         .descripciones2{
@@ -522,7 +526,86 @@
             margin: 5px;
             text-transform: uppercase;
             text-decoration: underline;
-            @extend %fuentes;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width:1024px){
+        .container{
+            .textoPresentacion{
+                font-size: 1.3rem;
+            }
+            .contenedor{
+
+                .txt1{
+                    grid-area: txt1;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 2rem;
+                    margin: 1.6rem;
+                    font-size: 1.2rem;    
+                }
+    
+                .txt2{
+                    grid-area: txt2;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 2rem;
+                    margin: 1.6rem;
+                    font-size: 1.2rem;
+                }
+
+                .txt3{
+                    grid-area: txt3;
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: 2rem;
+                    margin: 1.6rem;
+                    font-size: 1.2rem;
+                }    
+            }
         }
 
+
+        .descripciones{
+            color: map-get($map: $paleta, $key: color-uno);
+            background-color: map-get($map: $paleta, $key: color-dos );
+            padding: 2px;
+            margin: 5px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+        .descripciones1{
+            color: map-get($map: $paleta, $key: color-uno);
+            background-color: map-get($map: $paleta, $key: color-dos );
+            padding: 2px;
+            margin: 5px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+
+        .descripciones2{
+            color: map-get($map: $paleta, $key: color-uno);
+            background-color: map-get($map: $paleta, $key: color-dos );
+            padding: 2px;
+            margin: 5px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+        }
+
+
+    }
+
+    
        

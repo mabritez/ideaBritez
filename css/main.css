@@ -263,7 +263,7 @@ footer {
 .ContenedorTextosImagenFe .textosFe {
   padding: 2rem; }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .container .contenedor {
     height: 100vh;
     display: grid;
@@ -271,53 +271,149 @@ footer {
     grid-template-areas: "cont1 cont1 cont1 cont1" "img1 img1 txt1 txt1" "cont2 cont2 cont2 cont2" "txt2 txt2 img2 img2" "cont3 cont3 cont3 cont3" "img3 img3 txt3 txt3";
     gap: 0.5rem;
     justify-content: center; }
-  .container .cont1 {
-    grid-area: cont1; }
-  .container .img1 {
-    grid-area: img1;
-    justify-content: center;
-    align-items: center;
+    .container .contenedor .cont1 {
+      grid-area: cont1; }
+    .container .contenedor .img1 {
+      grid-area: img1;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .container .contenedor .txt1 {
+      grid-area: txt1;
+      text-align: center;
+      font-size: 1rem;
+      padding: 2rem;
+      margin: 1.6rem; }
+    .container .contenedor .cont2 {
+      grid-area: cont2; }
+    .container .contenedor .img2 {
+      grid-area: img2;
+      align-content: center;
+      text-align: center; }
+    .container .contenedor .txt2 {
+      grid-area: txt2;
+      text-align: center;
+      font-size: 1rem;
+      padding: 2rem;
+      margin: 1.6rem; }
+    .container .contenedor .cont3 {
+      grid-area: cont3; }
+    .container .contenedor .img3 {
+      grid-area: img3;
+      align-content: center;
+      text-align: center; }
+    .container .contenedor .txt3 {
+      grid-area: txt3;
+      text-align: center;
+      font-size: 1rem;
+      padding: 2rem;
+      margin: 1.6rem; }
+  .container .contenedorCatering {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(7, 2fr);
+    grid-template-areas: "descripciones1 descripciones1 descripciones1 descripciones1" "imgCatering1 imgCatering1 txtCatering1 txtCatering1" "descripciones2 descripciones2 descripciones2 descripciones2" "txtCatering2 txtCatering2 imgCatering2 imgCatering2";
+    gap: 0.5rem;
+    justify-content: center; }
+    .container .contenedorCatering .descripciones1 {
+      grid-area: descripciones1;
+      color: #f5b3be;
+      background-color: #0e0d0d;
+      padding: 2px;
+      margin: 5px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 2rem;
+      font-family: 'Oswald', sans-serif;
+      text-align: center; }
+    .container .contenedorCatering .imgCatering1 {
+      grid-area: imgCatering1;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+    .container .contenedorCatering .txtCatering1 {
+      grid-area: txtCatering1;
+      text-align: center;
+      font-size: 1rem;
+      padding: 2rem;
+      margin: 1.6rem; }
+    .container .contenedorCatering .descripciones2 {
+      grid-area: descripciones2;
+      color: #f5b3be;
+      background-color: #0e0d0d;
+      padding: 2px;
+      margin: 5px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 2rem;
+      font-family: 'Oswald', sans-serif;
+      text-align: center; }
+    .container .contenedorCatering .imgCatering2 {
+      grid-area: imgCatering2;
+      align-content: center;
+      text-align: center; }
+    .container .contenedorCatering .txtCatering2 {
+      grid-area: txtCatering2;
+      text-align: center;
+      font-size: 1rem;
+      padding: 2rem;
+      margin: 1.6rem; }
+  .descripciones {
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
     text-align: center; }
-  .container .txt1 {
+  .descripciones1 {
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center; }
+  .descripciones2 {
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .container .textoPresentacion {
+    font-size: 1.3rem; }
+  .container .contenedor .txt1 {
     grid-area: txt1;
     text-align: center;
     font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem; }
-  .container .cont2 {
-    grid-area: cont2; }
-  .container .img2 {
-    grid-area: img2;
-    align-content: center;
-    text-align: center; }
-  .container .txt2 {
+    margin: 1.6rem;
+    font-size: 1.2rem; }
+  .container .contenedor .txt2 {
     grid-area: txt2;
     text-align: center;
     font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem; }
-  .container .cont3 {
-    grid-area: cont3; }
-  .container .img3 {
-    grid-area: img3;
-    align-content: center;
-    text-align: center; }
-  .container .txt3 {
+    margin: 1.6rem;
+    font-size: 1.2rem; }
+  .container .contenedor .txt3 {
     grid-area: txt3;
     text-align: center;
     font-size: 1rem;
     padding: 2rem;
-    margin: 1.6rem; } }
-
-.container .contenedorCatering {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: repeat(7, 2fr);
-  grid-template-areas: "descripciones1 descripciones1 descripciones1 descripciones1" "imgCatering1 imgCatering1 txtCatering1 txtCatering1" "descripciones2 descripciones2 descripciones2 descripciones2" "txtCatering2 txtCatering2 imgCatering2 imgCatering2";
-  gap: 0.5rem;
-  justify-content: center; }
-  .container .contenedorCatering .descripciones1 {
-    grid-area: descripciones1;
+    margin: 1.6rem;
+    font-size: 1.2rem; }
+  .descripciones {
     color: #f5b3be;
     background-color: #0e0d0d;
     padding: 2px;
@@ -327,19 +423,7 @@ footer {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     text-align: center; }
-  .container .contenedorCatering .imgCatering1 {
-    grid-area: imgCatering1;
-    justify-content: center;
-    align-items: center;
-    text-align: center; }
-  .container .contenedorCatering .txtCatering1 {
-    grid-area: txtCatering1;
-    text-align: center;
-    font-size: 1rem;
-    padding: 2rem;
-    margin: 1.6rem; }
-  .container .contenedorCatering .descripciones2 {
-    grid-area: descripciones2;
+  .descripciones1 {
     color: #f5b3be;
     background-color: #0e0d0d;
     padding: 2px;
@@ -349,37 +433,13 @@ footer {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     text-align: center; }
-  .container .contenedorCatering .imgCatering2 {
-    grid-area: imgCatering2;
-    align-content: center;
-    text-align: center; }
-  .container .contenedorCatering .txtCatering2 {
-    grid-area: txtCatering2;
-    text-align: center;
-    font-size: 1rem;
-    padding: 2rem;
-    margin: 1.6rem; }
-
-.descripciones {
-  color: #f5b3be;
-  background-color: #0e0d0d;
-  padding: 2px;
-  margin: 5px;
-  text-transform: uppercase;
-  text-decoration: underline; }
-
-.descripciones1 {
-  color: #f5b3be;
-  background-color: #0e0d0d;
-  padding: 2px;
-  margin: 5px;
-  text-transform: uppercase;
-  text-decoration: underline; }
-
-.descripciones2 {
-  color: #f5b3be;
-  background-color: #0e0d0d;
-  padding: 2px;
-  margin: 5px;
-  text-transform: uppercase;
-  text-decoration: underline; }
+  .descripciones2 {
+    color: #f5b3be;
+    background-color: #0e0d0d;
+    padding: 2px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center; } }
